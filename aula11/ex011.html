@@ -16,12 +16,12 @@
 
     <script>
         function verif() {
-            var nac = window.document.querySelector('input#txtnac')
+            var nac = window.document.querySelector('input#txtnac').value
             var res = window.document.querySelector('div#res')
-            var n = nac.value
+            
 
-                res.innerHTML = `Vivendo em ${n},`
-                if (n == `Brasil`) {
+                res.innerHTML = `Vivendo em ${nac},`
+                if (nac == `Brasil`) {
                     res.innerHTML += `<p>Você é Brasileiro(a)!</p>`
                 }else {
                     res.innerHTML += `<p>Você é estrangeiro(a)!</p>`
