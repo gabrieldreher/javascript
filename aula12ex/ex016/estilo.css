@@ -24,6 +24,10 @@ div#res {
     text-align: center;
 }
 
+img#foto {
+    padding-top: 20px;
+}
+
 footer {
     color: white;
     text-align: center;
